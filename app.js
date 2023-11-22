@@ -117,7 +117,7 @@ app.delete('/movies/:id',(req,res) =>{
     return res.json({message: 'Pelicula eliminada'})
 })
 
-const PORT = process.env.PORT ?? 1234
+const PORT = process.env.PORT ?? 8080
 
 app.listen(PORT, (req, res) => {
     console.log(`listening on port http://localhost:${PORT}`);
